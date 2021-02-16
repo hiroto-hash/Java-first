@@ -14,7 +14,7 @@ import model.RegisterUserLogic;
 import model.User;
 
 //ユーザー登録に関するリクエストを処理するコントローラー
-@WebServlet("RegisterUser")
+@WebServlet("/RegisterUser")
 public class RegisterUser extends HttpServlet{
   private static final long serialVersionUID = 1L;
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
