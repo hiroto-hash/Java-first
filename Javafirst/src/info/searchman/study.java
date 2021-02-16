@@ -1,8 +1,6 @@
 package info.searchman;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 
 public class study {
 	public static void main(String args[]) throws IOException{
@@ -29,8 +27,8 @@ public class study {
 //		System.out.println( x );
 
 //		練習問題4-5
-		BufferedReader br = new BufferedReader(
-				new InputStreamReader(System.in));
+//		BufferedReader br = new BufferedReader(
+//				new InputStreamReader(System.in));
 //
 //		int sum = 0;
 //
@@ -39,10 +37,10 @@ public class study {
 //			sum += value;
 //		}
 //		System.out.println(( sum / 10));
-		
+
 //		練習問題4-6
-		
-		
+
+
 	 }
 
 }
